@@ -1,0 +1,38 @@
+<header id="header">
+    <div class="center">
+
+        <!--LOGO-->
+        <div id="logo">
+            <img src="assets/images/logosinletras.png" class="app-logo" alt="Logotipo" />
+            <span id="granrest">
+                <strong>GranRest</strong> Tecnology
+            </span>
+        </div>
+        <!--MENU-->
+
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a [routerLink]="['/home']" [routerLinkActive]="['active']">Inicio</a>
+                </li>
+                <li>
+                    <a [routerLink]="['nosotros']" [routerLinkActive]="['active']">Nosotros</a>
+                </li>
+                <li>
+                    <a [routerLink]="['servicios-pagina']" [routerLinkActive]="['active']">Servicios</a>
+                </li>
+                <li>
+                    <a [routerLink]="['blog']" [routerLinkActive]="['active']">Blog</a>
+                </li>
+                <li>
+                    <a [routerLink]="['formulario']" [routerLinkActive]="['active']">Contactos</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+        <!--Limpiar flotante-->
+        <div class="clearfix"></div>
+    </div>
+</header>
